@@ -1,0 +1,19 @@
+public class Aluno
+{
+	//nome, cpf, notas (três notas, uma para cada unidade).
+	
+	String nome;
+	String cpf;
+	float nota1;
+	float nota2;
+	float nota3;
+	
+	public Aluno (String nome, String cpf) {
+	    this.nome;
+	    this.cpf;
+	}
+	public float Nota (float nota1, float nota2, float nota3) {
+	    float NOTA = nota1 + nota2 + nota3;
+	    return NOTA;
+	}
+}
