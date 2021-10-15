@@ -1,0 +1,21 @@
+public class Lutador
+{
+	String nome;
+	int energia;
+	int forca;
+	
+	public Lutador (String nome, int energia, int forca) {
+	    this.nome = nome;
+	    this.energia = energia;
+	    this.forca = forca;
+	}
+	
+	public void AplicarGolpe(String nome) {
+	    ReduzirEnergia(forca);
+	}
+	
+	public int ReduzirEnergia(int forca) {
+	    energia = energia - forca;
+	    return energia;
+	}
+}
