@@ -1,0 +1,22 @@
+public class Post
+{
+	//texto, link, numeroCurtidas, numeroCompartilhamentos.
+	
+	String texto;
+	String link;
+	int numeroCurtidas;
+	int numeroCompartilhamentos;
+	
+	public String gettexto(){
+	    return this.texto;
+	}
+	public String getlink(){
+	    return this.link;
+	}
+	public int getnumeroCurtidas(){
+	    return this.numeroCurtidas;
+	}
+	public int getnumeroCompartilhamentos(){
+	    return this.numeroCompartilhamentos;
+	}
+}
